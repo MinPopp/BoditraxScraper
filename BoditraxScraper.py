@@ -20,8 +20,7 @@ class BoditraxScraper:
 
         # what attributes shall be tracked
         self._trackedAttributes = ['Weight', 'Muscle', 'fat', 'Water', 'Bone', 'LegMuscleScore', 'PhaseAngle',
-                                   'FatFree',
-                                   'VisceralFat', 'MetabolicAge', 'BasalMetabolicRate', 'PhysiqueScore']
+                                   'FatFree', 'VisceralFat', 'MetabolicAge', 'BasalMetabolicRate', 'PhysiqueScore']
 
         # where the json files will be stored
         self._outDir = 'data/' + datetime.today().strftime('%Y-%m-%d') + '/'
