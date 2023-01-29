@@ -16,7 +16,7 @@ All entries for following values will be downloaded for the whole time range and
 - Visceral Fat
 - Metabolic Age
 - BMR
-- BMI and 
+- BMI
 - Physique score 
 
 Check the python file for example usage.
